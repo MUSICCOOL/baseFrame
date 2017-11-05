@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <title>{{ site_set.site_title }}</title>
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="{{ site_set.site_keywords }}" />
+  <meta name="description" content="{{ site_set.site_description }}" />
+
+  <!-- css -->
+  <link href="../../public/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="../../public/css/front.css" rel="stylesheet" type="text/css" />
+
+  <!-- js -->
+  <script language="JavaScript" src="../../public/js/jquery-3.1.1.min.js"></script>
+  <script language="JavaScript" src="../../public/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+  {% block content %}  
+  {% endblock %} 
+</div>
+
+<!-- js -->
+<script language="JavaScript" src="../../public/js/front.js"></script>
+</body>
+</html> 

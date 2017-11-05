@@ -1,0 +1,11 @@
+/*
+ * 后台样式表
+ */
+#result-show{position:absolute;bottom:2px;  background-color:#C6E2FF; border-radius: 6px; padding:10px 60px;color:green; funt-size:14px}
+
+#login-form{width:60%;color:red; background:green}
+
+.top-right{margin-top:4px;}
+.top-right span{margin:0px 4px;}
+.guard-tab{border:none;width:30%; height:20%; text-align: center; margin:1%; padding:4%; text-decoration:none; border-radius:10px;}
+.guard-tab a{text-decoration:none; font-size: x-large; color: black; padding: 3%;}

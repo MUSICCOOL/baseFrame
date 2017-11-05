@@ -1,0 +1,18 @@
+{
+    "require":{
+        "illuminate/database":"5.1.6",
+        "illuminate/events": "^5.1",
+        "twig/twig":"1.18.2",
+        "phpoffice/phpexcel":"dev-master"
+    },
+    "autoload":{
+        "psr-4": {
+            "app\\": "app/",
+            "admin\\": "admin/",
+            "system\\":"core/"
+        },
+        "classmap":[
+            "core/"
+        ]
+    }
+}
